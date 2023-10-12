@@ -8,7 +8,7 @@ public class Main {
         IphoneUseCaseImpl iphone = new IphoneUseCaseImpl();
 
         System.out.println("------------------------------------");
-        System.out.println("REPRODUTOR MUSICAL:");
+        System.out.println("REPRODUZINDO MÚSICAS:");
 
         iphone.tocar();
         iphone.pausar();
@@ -23,7 +23,7 @@ public class Main {
 
 
         System.out.println("------------------------------------");
-        System.out.println("NAVEGADOR NA INTERNET:");
+        System.out.println("NAVEGADONDO NA INTERNET:");
 
         iphone.exibirPagina();
         iphone.adicionarNovaAba();
